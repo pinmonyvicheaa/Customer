@@ -8,7 +8,7 @@ import java.util.List;
 public class CustomerDatabase {
     private static final String URL = "jdbc:mysql://localhost:3306/customer";
     private static final String USER = "root";
-    private static final String PASSWORD = "W7301@jqir#";
+    private static final String PASSWORD = "Your Password";
 
     public List<Customer> getCustomers() {
         List<Customer> customers = new ArrayList<>();
